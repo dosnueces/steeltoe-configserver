@@ -1,6 +1,8 @@
+eureka:
+  client:
+    shouldRegisterWithEureka: false
 fortuneService:
   scheme: http
-  address: fortuneservice-misbuttoned-legislation.apps.selma.cf-app.com
+  address: localhost:5000
   randomFortunePath: api/fortunes/random
   allFortunesPath: api/fortunes/all
-
